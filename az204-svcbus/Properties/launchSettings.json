@@ -2,7 +2,7 @@
   "profiles": {
     "az204-svcbus": {
       "commandName": "Project",
-      "commandLineArgs": "Endpoint=sb://az204svcbus29688.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=OYpLLJjnkeisNeIH5odOeG+r3+ykMeVnW+ASbJzl6ig="
+      "commandLineArgs": "connstring_goeshere"
     }
   }
 }
