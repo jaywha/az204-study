@@ -5,6 +5,20 @@
     <RootNamespace>_AZ_204ExamStudy</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="az204-auth\**" />
+    <Compile Remove="az204-blob\**" />
+    <Compile Remove="az204-cosmos\**" />
+    <Compile Remove="az204-graph\**" />
+    <EmbeddedResource Remove="az204-auth\**" />
+    <EmbeddedResource Remove="az204-blob\**" />
+    <EmbeddedResource Remove="az204-cosmos\**" />
+    <EmbeddedResource Remove="az204-graph\**" />
+    <None Remove="az204-auth\**" />
+    <None Remove="az204-blob\**" />
+    <None Remove="az204-cosmos\**" />
+    <None Remove="az204-graph\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>
